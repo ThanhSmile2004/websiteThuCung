@@ -1,0 +1,123 @@
+﻿@{
+    ViewBag.Title = "SendMail";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h3>Gửi Email cho khách hàng</h3>
+<div>
+    <form action="/FileAndMail/SendMail" name="SendMail" method="post" enctype="multipart/form-data" onsubmit="redirectAfterSubmit(event)">
+        <div>From:</div>
+        <input name="From" type="email" value="thanh010120001@gmail.com" required />
+
+        <div>To:</div>
+        <input name="To" type="email" value="phamdangthanh210@gmail.com" required />
+
+        <div>Subject:</div>
+        <input name="Subject" type="text" />
+
+        <div>Notes:</div>
+        <textarea name="Notes" rows="4"></textarea>
+
+        <div>Attachment:</div>
+        <input name="Attachment" type="file" />
+
+        <hr />
+        <input type="submit" value="Send" />
+    </form>
+</div>
+
+<style>
+    /* Container của form */
+    form[name="SendMail"] {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Tiêu đề */
+    h3 {
+        text-align: center;
+        color: #007bff;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    /* Label và khoảng cách */
+    form[name="SendMail"] div {
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #495057;
+    }
+
+    /* Input fields */
+    form[name="SendMail"] input[type="email"],
+    form[name="SendMail"] input[type="text"],
+    form[name="SendMail"] input[type="file"],
+    form[name="SendMail"] textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #495057;
+        box-sizing: border-box;
+    }
+
+    /* Textarea */
+    form[name="SendMail"] textarea {
+        resize: vertical;
+    }
+
+    /* Nút Send */
+    form[name="SendMail"] input[type="submit"] {
+        width: 100%;
+        background-color: #28a745;
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        /* Hiệu ứng hover cho nút */
+        form[name="SendMail"] input[type="submit"]:hover {
+            background-color: #218838;
+        }
+
+    /* Khoảng cách giữa các phần */
+    hr {
+        margin: 20px 0;
+    }
+</style>
+
+<script>
+    function redirectAfterSubmit(event) {
+        event.preventDefault(); // Ngăn form tự động reload trang
+        const form = event.target;
+
+        // Gửi form bằng AJAX để xử lý mà không làm mới trang
+        fetch(form.action, {
+            method: form.method,
+            body: new FormData(form)
+        })
+            .then(response => {
+                if (response.ok) {
+                    // Nếu gửi thành công, hiển thị thông báo và chuyển hướng về trang AdminBooking/Doctor
+                    alert("Email đã được gửi thành công!");
+                    window.location.href = '/AdminBooking/Doctor'; // Chuyển hướng sau khi gửi thành công
+                } else {
+                    alert("Có lỗi xảy ra khi gửi email.");
+                }
+            })
+            .catch(error => {
+                console.error("Error:", error);
+                alert("Có lỗi xảy ra khi gửi email.");
+            });
+    }
+</script>

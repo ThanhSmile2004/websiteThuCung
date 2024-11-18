@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section class="breadcrumb-area" style="background-image: url(/Content/images//resources/breadcrumb-bg.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="inner-content clearfix">
+                    <div class="title float-left">
+                        <h2>Chi tiết dịch vụ</h2>
+                    </div>
+                    <div class="breadcrumb-menu float-right">
+                        <ul class="clearfix">
+                            <li><a href="/Home/Index">Trang chủ</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                            <li class="active">Chi tiết dịch vụ</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="blog-area" class="blog-single-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-7 col-md-12 col-sm-12">
+                <div class="blog-post">
+                    <!--Start Single blog Post-->
+                    <div class="single-blog-post single_post">
+                        <div class="top-box">
+                            <div class="right">
+                                <div class="title-holder">
+                                    <h3 class="blog-title">@ViewBag.Service.Name</h3>
+                                </div>
+                                <div class="meta-box">
+                                    <ul class="meta-info">
+                                        <li><a href="#"><span class="flaticon-pencil"></span>@ViewBag.Service.Created</a></li>
+                                        <li><a href="#"><span class="flaticon-document"></span>Dịch vụ</a></li>
+                                        <li><a href="#"><span class="flaticon-comment"></span>@ViewBag.Service.Price VNĐ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-post-image">
+                            <div class="image-box">
+                                <img src="~/Content/images/@ViewBag.Service.Image" alt="Awesome Image" style="margin-left : 100px !important">
+                            </div>
+                        </div>
+                        <div class="text-box1" style="margin-left : 100px !important">
+                            <p>@Html.Raw(ViewBag.Service.Content)</p>
+                        </div>
+                    </div>
+                    <!--End Single blog Post-->
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,257 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@Html.Action("MainSlider", "Modules");
+
+
+<section class="welcome-area sec-pd1">
+    @if(ViewBag.Msg != null && ViewBag.Msg == "2")
+    {
+    <div class="toast" data-delay="1000" style="position:fixed; top: 100PX; left: 40PX;z-index: 2000;width: 300px">
+
+        <script>
+            swal({
+                title: 'Bạn đã lấy số cho ngày hôm nay rồi!',
+                /* text: 'Redirecting...', */
+                icon: 'error',
+                timer: 3000,
+                buttons: true,
+                type: 'error'
+            })
+        </script>
+    </div>
+    }
+    <div class="container">
+        <div class="sec-title max-width text-center">
+            <h1>Website Đặt lịch khám cho Thú Cưng</h1>
+            <h3>Nơi đưa đến cho bạn các dịch vụ chăm sóc thú cưng hiện tại, tin tức sức khỏe mới nhất</h3>
+        </div>
+        <div class="row">
+            <!--Start Single Welcome Box-->
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                <div class="single-welcome-box text-center">
+                    <div class="icon-holder">
+                        <img src="~/Content/images/icon/icon-1.png" alt="Icon" style="height : 100px">
+                    </div>
+                    <div class="text-holder">
+                        <h3>Tin tức</h3>
+                        <p>Cập nhập các tin tức mới nhất về sức khỏe thú cưng, các mẹo hay để chăm sóc.</p>
+                        <a class="btn-one" href="/Post/Index">Xem thêm</a>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Welcome Box-->
+            <!--Start Single Welcome Box-->
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                <div class="single-welcome-box text-center">
+                    <div class="icon-holder">
+                        <img src="~/Content/images/icon/icon-2.png" alt="Icon" style="height : 100px">
+                    </div>
+                    <div class="text-holder">
+                        <h3>Dịch vụ</h3>
+                        <p>Cung cấp các dịch hiện đại, tiện nghi, an toàn sức khỏe và dễ dàng sử dụng với mọi Thú cưng.</p>
+                        <a class="btn-one" href="/Service/Index">Xem thêm</a>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Welcome Box-->
+            <!--Start Single Welcome Box-->
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                <div class="single-welcome-box text-center">
+                    <div class="icon-holder">
+                        <img src="~/Content/images/icon/icon-3.png" alt="Icon" style="height : 100px">
+                    </div>
+                    <div class="text-holder">
+                        <h3>Bác sĩ Thú Y</h3>
+                        <p>Hội tụ các bác sĩ chuyên khoa Thú y, kĩ năng giỏi và thân thiện hòa đồng với thú cưng.</p>
+                        <a class="btn-one" href="/Doctor/Index">Xem thêm</a>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Welcome Box-->
+        </div>
+    </div>
+</section>
+<!--End Welcome area-->
+<!--Start fact counter area-->
+
+<!--End fact counter area-->
+<!--Start About Area-->
+<!--End services style2 area-->
+<!--Start Appointment Area-->
+<!--End Appointment Area-->
+<!--Start team area-->
+<section class="team-area">
+    <div class="container">
+        <div class="sec-title text-center">
+            <h1>Top 3 bác sĩ Thú y </h1>
+        </div>
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <div class="team-carousel owl-carousel owl-theme">
+                    @foreach (var doctor in ViewBag.Doctor)
+                    {
+                        <!--Start single item member-->
+                        <div class="single-team-member">
+                            <div class="img-holder">
+                                <img src="~/Content/images/@doctor.Image" alt="Awesome Image" style="height : 350px !important">
+                                <div class="overlay-style-one"></div>
+                                <div class="text-holder text-center">
+                                    <h3>@doctor.FullName</h3>
+                                    <span>@doctor.Specialist</span>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    <!--End single item member-->
+                    <!--End single item member-->
+                    <!--Start single item member-->
+                    <!--End single item member-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End team area-->
+<!--Start Work area-->
+<!--End Testimonial Sec style2-->
+<!--Start Warranties sec-->
+<!--End Warranties sec-->
+<!--Start latest blog area-->
+<section class="latest-blog-area sec-pd1 pd-btm60" style="margin-top : -150px !important">
+    <div class="container inner-content">
+        <div class="sec-title max-width text-center">
+            <h1>Top 3 Dịch vụ Thú cưng</h1>
+        </div>
+        <div class="row">
+            @foreach (var service in ViewBag.Service)
+            {
+                <!--Start single blog post-->
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="single-blog-post">
+                        <div class="img-holder">
+                            <img src="~/Content/images/@service.Image" style="height : 250px !important" alt="Awesome Image">
+                            <div class="categorie-button">
+                                <a class="btn-one" href="#">Dịch vụ</a>
+                            </div>
+                        </div>
+                        <div class="text-holder">
+                            <div class="meta-box">
+                                <div class="author-thumb">
+                                    <img src="https://cdn2.iconfinder.com/data/icons/user-avatars-3/100/Doctor-512.png" alt="Image">
+                                </div>
+                                <ul class="meta-info">
+                                    <li><a href="#">Đăng bởi quản trị viên</a></li>
+                                    <li><a href="#">@String.Format("{0:dd-MM-yyyy}", service.Created)</a></li>
+                                </ul>
+                            </div>
+                            <h3 class="blog-title"><a href="/Service/Detail/@service.IdService">@service.Name</a></h3>
+
+                            <div class="readmore-button">
+                                <a class="btn-two" href="/Service/Detail/@service.IdService"><span class="flaticon-next"></span>Xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End single blog post-->
+            }
+        </div>
+    </div>
+</section>
+<!--End latest blog area-->
+<section class="latest-blog-area sec-pd1 pd-btm60" style="margin-top : -150px !important">
+    <div class="container inner-content">
+        <div class="sec-title max-width text-center">
+            <h1>Tin tức sức khỏe thú cưng mới nhất</h1>
+        </div>
+        <div class="row">
+            @foreach (var post in ViewBag.Post)
+            {
+                <!--Start single blog post-->
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="single-blog-post">
+                        <div class="img-holder">
+                            <img src="~/Content/images/@post.Image" style="height : 250px !important" alt="Awesome Image">
+                            <div class="categorie-button">
+                                <a class="btn-one" href="#">Tin tức</a>
+                            </div>
+                        </div>
+                        <div class="text-holder">
+                            <div class="meta-box">
+                                <div class="author-thumb">
+                                    <img src="https://cdn2.iconfinder.com/data/icons/user-avatars-3/100/Doctor-512.png" alt="Image">
+                                </div>
+                                <ul class="meta-info">
+                                    <li><a href="#">Đăng bởi quản trị viên</a></li>
+                                    <li><a href="#">@String.Format("{0:dd-MM-yyyy}", post.Created)</a></li>
+                                </ul>
+                            </div>
+                            <h3 class="blog-title"><a href="/Post/Detail/@post.IdPost">@post.Title</a></h3>
+
+                            <div class="readmore-button">
+                                <a class="btn-two" href="/Post/Detail/@post.IdPost"><span class="flaticon-next"></span>Xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End single blog post-->
+            }
+
+        </div>
+    </div>
+</section>
+<!--Start Brand area-->
+<section class="brand-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="brand">
+                    <!--Start single item-->
+                    <li class="single-item">
+                        <a href="#"><img src="~/Content/images/brand/1.png" alt="Awesome Brand Image"></a>
+                    </li>
+                    <!--End single item-->
+                    <!--Start single item-->
+                    <li class="single-item">
+                        <a href="#"><img src="~/Content/images/brand/2.png" alt="Awesome Brand Image"></a>
+                    </li>
+                    <!--End single item-->
+                    <!--Start single item-->
+                    <li class="single-item">
+                        <a href="#"><img src="~/Content/images/brand/3.png" alt="Awesome Brand Image"></a>
+                    </li>
+                    <!--End single item-->
+                    <!--Start single item-->
+                    <li class="single-item">
+                        <a href="#"><img src="~/Content/images/brand/4.png" alt="Awesome Brand Image"></a>
+                    </li>
+                    <!--End single item-->
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            type: "POST",
+            contentType: "application/json",
+            url: "/Home/RemoveNumberOnline",
+            data: null,
+            dataType: 'json',
+            cache: false,
+            success: function (t) {
+                if (t.Status == true) {
+                    console.log("success")
+                } else {
+                    console.log("error")
+                }
+            },
+            error: function (e) {
+                console.log("error")
+            }
+        });
+    });
+</script>

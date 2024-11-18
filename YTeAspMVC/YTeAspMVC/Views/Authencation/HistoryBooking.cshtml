@@ -1,0 +1,135 @@
+﻿
+@{
+    ViewBag.Title = "HistoryBooking";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (ViewBag.Msg != null && ViewBag.Msg == "1")
+{
+
+    <div class="toast" data-delay="1000" style="position:fixed; top: 100PX; left: 10PX;z-index: 2000;width: 300px">
+        <script>
+            swal({
+                title: 'Đặt lịch thành công',
+                /* text: 'Redirecting...', */
+                icon: 'success',
+                timer: 3000,
+                buttons: true,
+                type: 'success'
+            })
+        </script>
+    </div>
+}
+@if (ViewBag.Msg != null && ViewBag.Msg == "2")
+{
+
+    <div class="toast" data-delay="1000" style="position:fixed; top: 100PX; left: 10PX;z-index: 2000;width: 300px">
+        <script>
+            swal({
+                title: 'Đặt lịch không thành công',
+                /* text: 'Redirecting...', */
+                icon: 'error',
+                timer: 3000,
+                buttons: true,
+                type: 'error'
+            })
+        </script>
+    </div>
+}
+
+@if (ViewBag.Msg != null && ViewBag.Msg == "3")
+{
+
+    <div class="toast" data-delay="1000" style="position:fixed; top: 100PX; left: 10PX;z-index: 2000;width: 300px">
+        <script>
+            swal({
+                title: 'Hủy lịch  thành công',
+                /* text: 'Redirecting...', */
+                icon: 'success',
+                timer: 3000,
+                buttons: true,
+                type: 'success'
+            })
+        </script>
+    </div>
+}
+<section class="breadcrumb-area" style="background-image: url(/Content/images/resources/breadcrumb-bg.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="inner-content clearfix">
+                    <div class="title float-left">
+                        <h2>Lịch sử lịch hẹn</h2>
+                    </div>
+                    <div class="breadcrumb-menu float-right">
+                        <ul class="clearfix">
+                            <li><a href="/Home/Index">Home</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                            <li class="active">Lịch sử lịch hẹn</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact-form-area mt-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr style="background-color: #8bc43f;color : floralwhite">
+                                <th scope="col">Ngày</th>
+                                <th scope="col">Giờ</th>
+                                <th scope="col">Nhân viên</th>
+                                <th scope="col">Loại dịch vụ</th>
+                                <th scope="col">Lý do</th>
+                                <th scope="col">Thao tác</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in ViewBag.List)
+                            {
+
+                                <tr style="color : black">
+                                    <td>@String.Format("{0:dd-MM-yyyy}", item.Day)</td>
+                                    <td>@item.Time giờ</td>
+                                    <td>@item.Doctor.FullName</td>
+                                    <td>@item.Dichvu</td>
+                                    <td>@item.Reason</td>
+                                    @{
+                                        DateTime startDate = DateTime.Parse(item.Day);
+
+                                        int result = DateTime.Compare(startDate.Date, DateTime.Now.Date);
+                                    }
+                                    <td>
+                                        @if (item.Status == 0)
+                                        {
+                                            if (result == 0 && startDate.Hour < item.Time)
+                                            {
+                                                <a href="/Booking/Delete/@item.IdBooking" class="btn btn-warning">Hủy lịch</a>
+                                            }
+                                            else if (result > 0)
+                                            {
+                                                <a href="/Booking/Delete/@item.IdBooking" class="btn btn-warning">Hủy lịch</a>
+                                            }
+
+                                        }
+                                        else
+                                        {
+                                            <span class="text-success">Lịch hẹn của bạn đã được phê duyệt</span>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+

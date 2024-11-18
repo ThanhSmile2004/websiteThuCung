@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewBag.Title = "HistoryNumber";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="breadcrumb-area" style="background-image: url(/Content/images/resources/breadcrumb-bg.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="inner-content clearfix">
+                    <div class="title float-left">
+                        <h2>Lịch sử bốc số</h2>
+                    </div>
+                    <div class="breadcrumb-menu float-right">
+                        <ul class="clearfix">
+                            <li><a href="/Home/Index">Home</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                            <li class="active">Lịch sử bốc số</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact-form-area mt-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr style="background-color: #8bc43f;color : floralwhite">
+                                <th scope="col">Ngày</th>
+                                <th scope="col">Số thứ tự khám bệnh</th>
+                                <th scope="col">Thao tác</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in ViewBag.List)
+                            {
+                                <tr style="color : black">
+                                    <td>@String.Format("{0:dd-MM-yyyy}", item.Day)</td>
+                                    <td>@item.NumberInt</td>
+                                    <td>
+                                        <a href="/Authencation/Print/@item.IdNumber" target="_blank" class="btn btn-warning">In phiếu nhận số</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

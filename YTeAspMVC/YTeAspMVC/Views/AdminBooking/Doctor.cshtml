@@ -1,0 +1,126 @@
+﻿@{
+    ViewBag.Title = "Doctor";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<main>
+    <div class="container-fluid px-4">
+        <h4 class="mt-1">Danh sách lịch hẹn</h4>
+        <div class="card-header">
+            @if (ViewBag.Msg != null)
+            {
+                if (ViewBag.Msg == "1")
+                {
+                    <div class="alert alert-success">
+                        <strong>Thành công</strong>
+                    </div>
+                }
+            }
+        </div>
+        <div class="card mb-4">
+            <div class="card-body">
+                <table id="datatablesSimple">
+                    <thead style="color:#0d6efd ">
+                        <tr style="background-color: darkgrey">
+                            <th>STT</th>
+                            <th>Người dùng</th>
+                            <th>Số điện thoại</th>
+                            <th>Ngày đặt lịch</th>
+                            <th>Thời gian</th>
+                            <th>Loại dịch vụ</th>
+                            <th>Lý do</th>
+                            <th>Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        @{ var stt = 1;}
+                        @foreach (var item in ViewBag.List)
+                        {
+                            var nameModelDes = "exampleModalDes" + item.IdBooking;
+                            <tr>
+                                <td style="width:10px">@stt</td>
+                                <td>
+                                    @item.User.FullName
+                                </td>
+                                <td>
+                                    @item.User.PhoneNumber
+                                </td>
+                                <td>
+                                    @item.Day
+                                </td>
+                                <td>
+                                    @item.Time giờ
+                                </td>
+                                <td>
+                                    @item.Dichvu
+                                </td>
+                                <td>
+                                    @item.Reason
+                                </td>
+                                <td>
+                                    @{
+                                        var idModelDel = "exampleModalDel" + item.IdBooking;
+                                    }
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#@idModelDel" style="width:100px" class="btn btn-success">Đã khám</button>
+                                </td>
+                            </tr>
+                            <div class="modal fade" id="@idModelDel" tabindex="-1"
+                                 aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Bạn chắc chắn đã khám ?</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                        </div>
+
+                                        <div class="modal-body">
+                                            Người khám : @item.User.FullName
+                                            <form action="/AdminBooking/Complete" method="post" onsubmit="redirectToSendMail(event)">
+                                                <input type="hidden" class="form-control" id="id" name="idBooking" value="@item.IdBooking">
+                                                <div class="modal-footer" style="margin-top: 20px">
+                                                    <button style="width:100px" type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">
+                                                        Đóng
+                                                    </button>
+                                                    <button style="width:100px" type="submit" class="btn btn-success"> Đã khám</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            stt++;
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script>
+    function redirectToSendMail(event) {
+        event.preventDefault(); // Ngăn không cho form gửi đi ngay lập tức
+        const form = event.target;
+
+        // Gửi form qua JavaScript
+        fetch(form.action, {
+            method: form.method,
+            body: new URLSearchParams(new FormData(form))
+        })
+            .then(response => {
+                if (response.ok) {
+                    window.location.href = '/FileAndMail/SendMail'; // Chuyển đến trang SendMail sau khi gửi thành công
+                } else {
+                    alert("Đã xảy ra lỗi khi hoàn tất lịch khám.");
+                }
+            })
+            .catch(error => console.error('Error:', error));
+    }
+</script>

@@ -1,0 +1,131 @@
+﻿
+<header class="header-style2-area stricky">
+    <div class="container">
+        @{ var userInfomatiom = (YTeAspMVC.Models.User)Session["USER"];
+            var active = (string)Session["Active"];}
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12">
+                <div class="inner-content clearfix">
+                    <div class="header-style2-logo float-left">
+                        <a href="/Home/Index">
+                            <img src="~/Content/images/resources/logox.png" alt="Awesome Logo" style="width : 170px;height : 150px">
+                        </a>
+                    </div>
+                    <div class="header-middle clearfix float-left">
+                        <nav class="main-menu style1 style2 clearfix">
+                            <div class="navbar-header clearfix">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="navbar-collapse collapse clearfix">
+                                <ul class="navigation clearfix">
+                                    @if(active == "Home")
+                                    {
+                                        <li class="dropdown current">
+                                            <a href="/Home/Index">Trang chủ</a>
+                                        </li>
+                                    }
+                                    else
+                                    {
+                                        <li class="dropdown">
+                                            <a href="/Home/Index">Trang chủ</a>
+                                        </li>
+                                    }
+
+                                    @if (active == "Doctor")
+                                    {
+                                        <li class="current"><a href="/Doctor/Index">Đặt Lịch</a></li>
+                                    }
+                                    else
+                                    {
+                                        <li><a href="/Doctor/Index">Đặt Lịch</a></li>
+                                    }
+
+
+                                    @if (active == "New")
+                                    {
+                                        <li class="dropdown current">
+                                            <a href="/Post/Index">Tin Tức</a>
+                                        </li>
+                                    }
+                                    else
+                                    {
+                                        <li class="dropdown">
+                                            <a href="/Post/Index">Tin Tức</a>
+                                        </li>
+                                    }
+                                    @if (active == "Service")
+                                    {
+                                        <li class="dropdown current">
+                                            <a href="/Service/Index">Dịch vụ</a>
+                                        </li>
+                                    }
+                                    else
+                                    {
+                                        <li class="dropdown">
+                                            <a href="/Service/Index">Dịch vụ</a>
+                                        </li>
+                                    }
+
+                                    @if (active == "Advice")
+                                    {
+                                        <li class="dropdown current">
+                                            <a href="/Home/Advise">Tư vấn</a>
+                                        </li>
+                                    }
+                                    else
+                                    {
+                                        <li class="dropdown">
+                                            <a href="/Home/Advise">Tư vấn</a>
+                                        </li>
+                                    }
+
+
+                                    @if (userInfomatiom == null)
+                                    {
+                                        if (active == "Singup")
+                                        {
+                                            <li class=" current"><a href="/Authencation/Singup">Đăng ký</a></li>
+                                        }
+                                        else
+                                        {
+                                            <li><a href="/Authencation/Singup">Đăng ký</a></li>
+                                        }
+                                        if (active == "Login")
+                                        {
+                                            <li class=" current"><a href="/Authencation/Login">Đăng nhập</a></li>
+                                        }
+                                        else
+                                        {
+                                            <li><a href="/Authencation/Login">Đăng nhập</a></li>
+                                        }
+
+                                    }
+                                    else
+                                    {
+                                        <li class="dropdown">
+                                            <a>@userInfomatiom.FullName</a>
+                                            <ul>
+                                                <li><a href="/Authencation/Information">Cập nhập thông tin</a></li>
+                                                <li><a href="/Authencation/HistoryNumber">Lịch sử bốc số</a></li>
+                                                <li><a href="/Authencation/HistoryBooking">Lịch sử lịch hẹn</a></li>
+                                                <li><a href="/Authencation/Logout">Đăng xuất</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="/Authencation/NumberOnline">Bốc số online</a></li>
+                                    }
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    @*<div class="header-style2-button float-right">
+                        <a href="#"><span class="icon-date"></span>Appointment</a>
+                    </div>*@
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

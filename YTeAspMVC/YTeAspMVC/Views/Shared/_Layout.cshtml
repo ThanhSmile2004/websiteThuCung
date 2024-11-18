@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from st.ourhtmldemo.com/new/Dento/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Jan 2021 02:04:57 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <title>Website Khám Thú cưng</title>
+
+    <!-- responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- master stylesheet -->
+    <link rel="stylesheet" href="~/Content/css/style.css">
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="~/Content/css/responsive.css">
+    <!--Color Switcher Mockup-->
+    <link rel="stylesheet" href="~/Content/css/color-switcher-design.css">
+    <!--Color Themes-->
+    <link rel="stylesheet" href="~/Content/css/color-themes/default-theme.css" id="theme-color-file">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="~/Content/~Content/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="~/Content/~Content/images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="~/Content/~Content/images/favicon/favicon-16x16.png" sizes="16x16">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <!-- Fixing Internet Explorer-->
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <div class="boxed_wrapper">
+
+        <div class="preloader"></div>
+
+        <!-- Start Top Bar style2 area -->
+        @Html.Action("Header", "Modules")
+        <!--End header style2 area-->
+        <!-- Hidden Navigation Bar -->
+        @Html.Action("NavigationBar", "Modules")
+        <!-- End Hidden Bar -->
+        <!--Main Slider-->
+        @*@Html.Action("MainSlider", "Modules")*@
+        <!--End Main Slider-->
+        <!--Start Welcome area-->
+        @RenderBody()
+        <!--End Brand area-->
+        <!--Start footer area-->
+        @Html.Action("Footer", "Modules")
+        <!--End footer bottom area-->
+
+    </div>
+
+    <!--Scroll to top-->
+    <div class="scroll-to-top scroll-to-target thm-bg-clr" data-target="html"><span class="fa fa-angle-up"></span></div>
+
+    <!-- Color Palate / Color Switcher -->
+    <div class="color-palate">
+        <div class="color-trigger">
+            <i class="fa fa-gear"></i>
+        </div>
+        <div class="color-palate-head">
+            <h6>Choose Your Color</h6>
+        </div>
+        <div class="various-color clearfix">
+            <div class="colors-list">
+                <span class="palate default-color active" data-theme-file="css/color-themes/default-theme.css"></span>
+                <span class="palate teal-color" data-theme-file="css/color-themes/teal-theme.css"></span>
+                <span class="palate navy-color" data-theme-file="css/color-themes/navy-theme.css"></span>
+                <span class="palate yellow-color" data-theme-file="css/color-themes/yellow-theme.css"></span>
+                <span class="palate blue-color" data-theme-file="css/color-themes/blue-theme.css"></span>
+                <span class="palate purple-color" data-theme-file="css/color-themes/purple-theme.css"></span>
+                <span class="palate olive-color" data-theme-file="css/color-themes/olive-theme.css"></span>
+                <span class="palate red-color" data-theme-file="css/color-themes/red-theme.css"></span>
+            </div>
+        </div>
+        <div class="palate-foo">
+            <span>You can easily change and switch the colors.</span>
+        </div>
+    </div>
+    <!-- /.End Of Color Palate -->
+    <!-- main jQuery -->
+    <script src="~/Content/js/jquery.js"></script>
+    <!-- Wow Script -->
+    <script src="~/Content/js/wow.js"></script>
+    <!-- bootstrap -->
+    <script src="~/Content/js/bootstrap.min.js"></script>
+    <!-- Slick slider Script -->
+    <script src="~/Content/js/slick.js"></script>
+    <!-- bx slider -->
+    <script src="~/Content/js/jquery.bxslider.min.js"></script>
+    <!-- count to -->
+    <script src="~/Content/js/jquery.countTo.js"></script>
+    <script src="~/Content/js/appear.js"></script>
+    <!-- owl carousel -->
+    <script src="~/Content/js/owl.js"></script>
+    <!-- validate -->
+    <script src="~/Content/js/validation.js"></script>
+    <!-- mixit up -->
+    <script src="~/Content/js/jquery.mixitup.min.js"></script>
+    <!-- isotope script-->
+    <script src="~/Content/js/isotope.js"></script>
+    <!-- Easing -->
+    <script src="~/Content/js/jquery.easing.min.js"></script>
+    <!-- Gmap helper -->
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyB2uu6KHbLc_y7fyAVA4dpqSVM4w9ZnnUw"></script>
+    <!--Gmap script-->
+    <script src="~/Content/js/gmaps.js"></script>
+    <script src="~/Content/js/map-helper.js"></script>
+    <!-- jQuery ui js -->
+    <script src="~/Content/assets/jquery-ui-1.11.4/jquery-ui.js"></script>
+    <!-- Language Switche  -->
+    <script src="~/Content/assets/language-switcher/jquery.polyglot.language.switcher.js"></script>
+    <!-- jQuery timepicker js -->
+    <script src="~/Content/assets/timepicker/timePicker.js"></script>
+    <!-- Bootstrap select picker js -->
+    <script src="~/Content/assets/bootstrap-sl-1.12.1/bootstrap-select.js"></script>
+    <!-- html5lightbox js -->
+    <script src="~/Content/assets/html5lightbox/html5lightbox.js"></script>
+    <!-- html5lightbox js -->
+    <script src="~/Content/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!--Color Switcher-->
+    <script src="~/Content/js/color-settings.js"></script>
+
+    <!--Revolution Slider-->
+    <script src="~/Content/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="~/Content/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="~/Content/plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="~/Content/plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="~/Content/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="~/Content/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="~/Content/plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="~/Content/plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="~/Content/plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="~/Content/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="~/Content/plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="~/Content/js/main-slider-script.js"></script>
+
+    <!-- thm custom script -->
+    <script src="~/Content/js/custom.js"></script>
+
+
+
+</body>
+
+<!-- Mirrored from st.ourhtmldemo.com/new/Dento/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Jan 2021 02:06:23 GMT -->
+</html>

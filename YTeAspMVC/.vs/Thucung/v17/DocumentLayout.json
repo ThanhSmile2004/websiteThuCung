@@ -1,0 +1,630 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|e:\\quanlydoancsnganh\\yteaspmvc-uudido\\yteaspmvc\\yteaspmvc\\yteaspmvc\\controllers\\fileandmailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\controllers\\fileandmailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\doctor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\doctor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\admindoctor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\admindoctor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\adminbooking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\adminbooking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\adminbooking\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\adminbooking\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\adminbooking\\doctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\adminbooking\\doctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\adminadvise\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\adminadvise\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\controllers\\authencationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\controllers\\authencationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\daos\\bookingdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\daos\\bookingdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\authencation\\historybooking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\authencation\\historybooking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\daos\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\daos\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\adminmodules\\header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\adminmodules\\header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\models\\mail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\models\\mail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\adminmodules\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\adminmodules\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\adminpost\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\adminpost\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\adminservice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\adminservice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\adminuser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\adminuser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\modules\\navigationbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\modules\\navigationbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\post\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\post\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\adminmodules\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\adminmodules\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\adminhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\adminhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\adminauthentication\\logindoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\adminauthentication\\logindoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\adminauthentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\adminauthentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\modules\\header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\modules\\header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\home\\advise.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\home\\advise.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\modules\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\modules\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\yteaspmvc\\views\\modules\\mainslider.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A01FEAA5-1B5F-48C3-A579-6335E9A0D878}|YTeAspMVC\\ThuCung.csproj|solutionrelative:yteaspmvc\\views\\modules\\mainslider.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminDoctor\\Index.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\AdminDoctor\\Index.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminDoctor\\Index.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\AdminDoctor\\Index.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAMkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T00:35:48.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Controllers\\BookingController.cs",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "YTeAspMVC\\Controllers\\BookingController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwBEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:01:50.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminAdvise\\Index.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\AdminAdvise\\Index.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminAdvise\\Index.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\AdminAdvise\\Index.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T14:40:53.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserDao.cs",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Daos\\UserDao.cs",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Daos\\UserDao.cs",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Daos\\UserDao.cs",
+              "RelativeToolTip": "YTeAspMVC\\Daos\\UserDao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T03:19:08.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Models\\User.cs",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Models\\User.cs",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Models\\User.cs",
+              "RelativeToolTip": "YTeAspMVC\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T03:19:33.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileAndMailController.cs",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Controllers\\FileAndMailController.cs",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Controllers\\FileAndMailController.cs",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Controllers\\FileAndMailController.cs",
+              "RelativeToolTip": "YTeAspMVC\\Controllers\\FileAndMailController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T00:20:36.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Doctor.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminBooking\\Doctor.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\AdminBooking\\Doctor.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminBooking\\Doctor.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\AdminBooking\\Doctor.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T14:41:10.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Controllers\\DoctorController.cs",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "YTeAspMVC\\Controllers\\DoctorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T05:46:14.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminBooking\\Index.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\AdminBooking\\Index.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminBooking\\Index.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\AdminBooking\\Index.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAEMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T03:37:20.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Booking\\Index.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\Booking\\Index.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Booking\\Index.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\Booking\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T03:39:45.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Doctor\\Index.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\Doctor\\Index.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Doctor\\Index.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\Doctor\\Index.cshtml",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAcwIQAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T15:06:37.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "History.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminBooking\\History.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\AdminBooking\\History.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminBooking\\History.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\AdminBooking\\History.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T14:44:06.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthencationController.cs",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Controllers\\AuthencationController.cs",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Controllers\\AuthencationController.cs",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Controllers\\AuthencationController.cs",
+              "RelativeToolTip": "YTeAspMVC\\Controllers\\AuthencationController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T03:17:54.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Models\\Booking.cs",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Models\\Booking.cs",
+              "RelativeToolTip": "YTeAspMVC\\Models\\Booking.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T03:25:23.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HistoryBooking.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Authencation\\HistoryBooking.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\Authencation\\HistoryBooking.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Authencation\\HistoryBooking.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\Authencation\\HistoryBooking.cshtml",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAcwIcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T03:10:13.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Header.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminModules\\Header.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\AdminModules\\Header.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminModules\\Header.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\AdminModules\\Header.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T00:34:49.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Mail.cs",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Models\\Mail.cs",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Models\\Mail.cs",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Models\\Mail.cs",
+              "RelativeToolTip": "YTeAspMVC\\Models\\Mail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T00:13:50.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookingDao.cs",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Daos\\BookingDao.cs",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Daos\\BookingDao.cs",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Daos\\BookingDao.cs",
+              "RelativeToolTip": "YTeAspMVC\\Daos\\BookingDao.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAYwBwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T02:39:34.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Service\\Index.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\Service\\Index.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Service\\Index.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\Service\\Index.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAD0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T00:27:03.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Menu.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminModules\\Menu.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\AdminModules\\Menu.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminModules\\Menu.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\AdminModules\\Menu.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T00:34:55.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Controllers\\ServiceController.cs",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "YTeAspMVC\\Controllers\\ServiceController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T15:12:53.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminPost\\Index.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\AdminPost\\Index.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminPost\\Index.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\AdminPost\\Index.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T01:20:50.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminService\\Index.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\AdminService\\Index.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminService\\Index.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\AdminService\\Index.cshtml",
+              "ViewState": "AQIAAOoAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T01:09:46.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminUser\\Index.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\AdminUser\\Index.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminUser\\Index.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\AdminUser\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T00:40:00.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NavigationBar.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Modules\\NavigationBar.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\Modules\\NavigationBar.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Modules\\NavigationBar.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\Modules\\NavigationBar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T01:08:02.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Post\\Detail.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\Post\\Detail.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Post\\Detail.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\Post\\Detail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T14:39:55.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Footer.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminModules\\Footer.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\AdminModules\\Footer.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminModules\\Footer.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\AdminModules\\Footer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T00:35:02.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminHome\\Index.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\AdminHome\\Index.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminHome\\Index.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\AdminHome\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T05:49:15.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginDoctor.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminAuthentication\\LoginDoctor.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\AdminAuthentication\\LoginDoctor.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminAuthentication\\LoginDoctor.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\AdminAuthentication\\LoginDoctor.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T00:35:21.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Header.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Modules\\Header.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\Modules\\Header.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Modules\\Header.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\Modules\\Header.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T00:39:48.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Advise.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Home\\Advise.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\Home\\Advise.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Home\\Advise.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\Home\\Advise.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T00:29:39.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminAuthentication\\Login.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\AdminAuthentication\\Login.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\AdminAuthentication\\Login.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\AdminAuthentication\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T00:21:14.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T00:10:17.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T00:33:12.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\Home\\About.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T00:10:00.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Footer.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Modules\\Footer.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\Modules\\Footer.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Modules\\Footer.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\Modules\\Footer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T14:39:39.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MainSlider.cshtml",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Modules\\MainSlider.cshtml",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Views\\Modules\\MainSlider.cshtml",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Views\\Modules\\MainSlider.cshtml",
+              "RelativeToolTip": "YTeAspMVC\\Views\\Modules\\MainSlider.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T00:40:51.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Web.config",
+              "DocumentMoniker": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Web.config",
+              "RelativeDocumentMoniker": "YTeAspMVC\\Web.config",
+              "ToolTip": "E:\\quanlydoancsnganh\\YTeAspMVC-uudido\\YTeAspMVC\\YTeAspMVC\\YTeAspMVC\\Web.config",
+              "RelativeToolTip": "YTeAspMVC\\Web.config",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-24T14:24:55.478Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

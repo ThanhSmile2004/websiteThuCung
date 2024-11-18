@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewBag.Title = "History";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<main>
+    <div class="container-fluid px-4">
+        <h4 class="mt-1">Danh sách lịch hẹn</h4>
+
+        <div class="card mb-4">
+            <div class="card-body">
+                <table id="datatablesSimple">
+                    <thead style="color:#0d6efd ">
+                        <tr style="background-color: darkgrey">
+                            <th>STT</th>
+                            <th>Nhóm</th>
+                            <th>Nhân viên</th>
+                            <th>Người khám</th>
+                            <th>Ngày</th>
+                            <th>Giờ</th>
+                            <th>Loại dịch vụ</th>
+                            <th>Lý do</th>
+                            <th>Tình trạng</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        @{ var stt = 1;}
+                        @foreach (var item in ViewBag.List)
+                        {
+                            var nameModelDes = "exampleModalDes" + item.IdBooking;
+                        <tr>
+                            <td style="width:10px">@stt</td>
+                            <td>
+                                @item.Doctor.Specialist
+                            </td>
+                            <td>
+                                @item.Doctor.FullName
+                            </td>
+                            <td>
+                                @item.User.FullName
+                            </td>
+                            <td>
+                                @item.Day
+                            </td>
+                            <td>
+                                @item.Time giờ
+                            </td>
+                            <td>
+                                @item.Dichvu
+                            </td>
+                            <td>
+                                @item.Reason
+                            </td>
+                            <td>
+                                Đã khám
+                            </td>
+                        </tr>
+                            stt++;
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+

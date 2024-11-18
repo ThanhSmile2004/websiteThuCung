@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="breadcrumb-area" style="background-image: url(/Content/images//resources/breadcrumb-bg.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="inner-content clearfix">
+                    <div class="title float-left">
+                        <h2>Dịch vụ y tế</h2>
+                    </div>
+                    <div class="breadcrumb-menu float-right">
+                        <ul class="clearfix">
+                            <li><a href="/Home/Index">Trang chủ</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                            <li class="active">Dịch vụ</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Start blog area-->
+<section id="blog-area" class="blog-default-area">
+    <div class="container">
+        <div class="row">
+            @foreach (var service in ViewBag.List)
+            {
+                <!--Start single blog post-->
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="single-blog-post">
+                        <div class="img-holder">
+                            <img src="~/Content/images/@service.Image" style="height : 250px !important" alt="Awesome Image">
+                            <div class="categorie-button">
+                                <a class="btn-one" href="#">Dịch vụ</a>
+                            </div>
+                        </div>
+                        <div class="text-holder">
+                            <div class="meta-box">
+                                <div class="author-thumb">
+                                    <img src="https://cdn2.iconfinder.com/data/icons/user-avatars-3/100/Doctor-512.png" alt="Image">
+                                </div>
+                                <ul class="meta-info">
+                                    <li><a href="#">Đăng bởi quản trị viên</a></li>
+                                    <li><a href="#">@String.Format("{0:dd-MM-yyyy}", service.Created)</a></li>
+                                </ul>
+                            </div>
+                            <h3 class="blog-title"><a href="/Service/Detail/@service.IdService">@service.Name</a></h3>
+                            <div class="readmore-button">
+                                <a class="btn-two" href="/Service/Detail/@service.IdService"><span class="flaticon-next"></span>Xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            }
+
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="post-pagination text-center">
+                    <li class="float-left"><a class="left" href="#"><i class="fa fa-angle-left" aria-hidden="true"></i></a></li>
+                    <li class="text-center">1 of 4</li>
+                    <li class="float-right"><a class="right" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+

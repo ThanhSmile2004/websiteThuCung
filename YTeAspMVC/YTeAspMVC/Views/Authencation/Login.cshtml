@@ -1,0 +1,79 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="breadcrumb-area" style="background-image: url(/Content/images/resources/breadcrumb-bg.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="inner-content clearfix">
+                    <div class="title float-left">
+                        <h2>Đăng nhập</h2>
+                    </div>
+                    <div class="breadcrumb-menu float-right">
+                        <ul class="clearfix">
+                            <li><a href="/Home/Index">Home</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                            <li class="active">Đăng nhập</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+@if (ViewBag.mess == "Error")
+{
+
+    <div class="toast" data-delay="1000" style="position:fixed; top: 100PX; left: 10PX;z-index: 2000;width: 300px">
+        <script>
+            swal({
+                title: 'Email hoặc mật khẩu không đúng!',
+                /* text: 'Redirecting...', */
+                icon: 'error',
+                timer: 3000,
+                buttons: true,
+                type: 'success'
+            })
+        </script>
+    </div>
+}
+<!--End breadcrumb area-->
+<!--Start Contact info map area-->
+<!--End Contact info map area-->
+<!--Start contact form area-->
+<section class="contact-form-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <div class="contact-form">
+                    <div class="contact-title">
+                        <h2>Đăng nhập thành viên</h2>
+                    </div>
+                    <form name="contact_form" class="default-form" action="/Authencation/Login" method="post">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="input-box">
+                                    <input type="email" class="form-control" name="Email" placeholder="Email*" required>
+                                </div>
+                                <div class="input-box">
+                                    <input type="text" class="form-control" name="Password" required placeholder="Mật khẩu">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="button-box">
+                                    <button class="btn-one" type="submit">Đăng nhập</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+

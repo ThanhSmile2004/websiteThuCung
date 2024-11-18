@@ -1,0 +1,111 @@
+﻿
+@{
+    ViewBag.Title = "Information";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="breadcrumb-area" style="background-image: url(/Content/images/resources/breadcrumb-bg.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="inner-content clearfix">
+                    <div class="title float-left">
+                        <h2>Thông tin cá nhân</h2>
+                    </div>
+                    <div class="breadcrumb-menu float-right">
+                        <ul class="clearfix">
+                            <li><a href="/Home/Index">Home</a></li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                            <li class="active">Thông tin cá nhân</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+@if (ViewBag.mess == "Success")
+{
+    <div class="toast" data-delay="1000" style="position:fixed; top: 100PX; left: 40PX;z-index: 2000;width: 300px">
+
+        <script>
+            swal({
+                title: 'Cập nhập thành công!',
+                /* text: 'Redirecting...', */
+                icon: 'success',
+                timer: 3000,
+                buttons: true,
+                type: 'success'
+            })
+        </script>
+    </div>
+}
+
+<!--End breadcrumb area-->
+<!--Start Contact info map area-->
+<!--End Contact info map area-->
+<!--Start contact form area-->
+<section class="contact-form-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <div class="contact-form">
+                    <div class="contact-title">
+                        <h2>Thông tin cá nhân</h2>
+                    </div>
+                    <form name="contact_form" class="default-form" action="/Authencation/Update" method="post">
+                        <div class="row">
+                            <input type="hidden" name="IdUser" value="@ViewBag.User.IdUser">
+                            <div class="col-md-6">
+                                <div class="input-box">
+                                    <input type="text" class="form-control" name="FullName" value="@ViewBag.User.FullName" readonly>
+                                </div>
+                                <div class="input-box">
+                                    <input type="email" class="form-control" name="Email" value="@ViewBag.User.Email" readonly>
+                                </div>
+                                <div class="input-box">
+                                    <input type="text" class="form-control" name="Password" value="@ViewBag.User.Password" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="input-box">
+                                    <input type="text" class="form-control" name="Address" value="@ViewBag.User.Address" required>
+                                </div>
+                                <div class="input-box">
+                                    <select class="form-control" name="Gender">
+                                        @if (ViewBag.User.Gender == "Nam")
+                                        {
+                                            <option value="Nam" selected>Nam</option>
+                                            <option value="Nữ">Nữ</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="Nam">Nam</option>
+                                            <option value="Nữ" selected>Nữ</option>
+                                        }
+
+                                    </select>
+                                </div>
+                                <div class="input-box mt-5">
+                                    <input type="text" class="form-control" name="PhoneNumber" required value="@ViewBag.User.PhoneNumber">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="button-box">
+                                    <button class="btn-one" type="submit">Cập nhập</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
